@@ -1,0 +1,37 @@
+.header__contant{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerDiv {
+  height: 100px;
+  background-color: gray;
+}
+.div_1 {
+  width: 10%;
+  object-fit: cover;
+}
+
+.div_2{
+  width: 20%;
+}
+
+.div_3{
+  width: 60%;
+}
+@media(max-width:600px) {
+  .header__contant {
+    gap: 10px 0;
+    flex-direction: column;
+  }
+  .div_1 {
+    width: 100%;
+  }
+  .div_2 {
+    width: 100%;
+  }
+  .div_3 {
+    width: 100%;
+  }
+}
